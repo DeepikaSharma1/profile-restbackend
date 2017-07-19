@@ -68,7 +68,7 @@ public class UploadServiceDaoImpl implements UploadServiceDao {
 		System.out.println(builder.toString());*/
 		return Response.seeOther(URI.create("http://localhost:10080/collaboration-frontend/?message=" + message)).build();
 	}
-	
+	/*
 	@Override
 	public Response redirect(@Context ServletContext context) {
 		System.out.println(context.getContextPath());
@@ -77,5 +77,5 @@ public class UploadServiceDaoImpl implements UploadServiceDao {
 		System.out.println(builder.toString());
 		return Response.seeOther(builder.build()).build();
 	}
-
+*/
 }
