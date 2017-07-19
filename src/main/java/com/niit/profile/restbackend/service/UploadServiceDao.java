@@ -18,6 +18,6 @@ public interface UploadServiceDao {
 
 	Response upload(InputStream inputStream, FormDataContentDisposition fileDetails);
 
-	Response redirect(ServletContext context);
+	// Response redirect(ServletContext context);
 	
 }
